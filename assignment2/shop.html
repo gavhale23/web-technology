@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shop | Shraddhas Trends</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: linear-gradient(120deg, #fff1f2, #fde2e4);
+        }
+
+        header {
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: white;
+        }
+
+        header h1 {
+            color: #e75480;
+        }
+
+        .back-btn {
+            background: #e75480;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 20px;
+            text-decoration: none;
+        }
+
+        h2 {
+            text-align: center;
+            margin: 30px 0;
+            color: #e75480;
+        }
+
+        .products {
+            padding: 20px 40px 60px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 30px;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .card {
+            background: white;
+            border-radius: 20px;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+            cursor: pointer;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 15px 30px rgba(231, 84, 128, 0.25);
+        }
+
+        .card img {
+            width: 100%;
+            height: 260px;
+            object-fit: cover;
+            border-radius: 15px;
+            margin-bottom: 10px;
+            transition: transform 0.4s ease;
+        }
+
+        .card:hover img {
+            transform: scale(1.08);
+        }
+
+        .price {
+            color: #e75480;
+            font-weight: 600;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #ffe4ec;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Shraddhas Trends</h1>
+    <a href="index.html" class="back-btn">← Back</a>
+</header>
+
+<h2>Our Products</h2>
+
+<div class="products">
+
+    <a href="mobile-charm.html">
+        <div class="card">
+            <img src="https://casebasket.in/cdn/shop/files/Pinkitty_Bow_Pearl_Fall_Chain_Phone_Case.png?v=1750932891" alt="Mobile Charm">
+            <h3>Mobile Charm</h3>
+            <p class="price">₹299</p>
+            <p>Pastel charm with cute aesthetic vibes.</p>
+        </div>
+    </a>
+
+    <a href="bracelets.html">
+        <div class="card">
+            <img src="https://m.media-amazon.com/images/I/61lw725YXPL._AC_UY1100_.jpg" alt="Bracelets">
+            <h3>Bracelets</h3>
+            <p class="price">₹199</p>
+            <p>Trendy bracelets for daily styling.</p>
+        </div>
+    </a>
+
+    <a href="hair-accessories.html">
+        <div class="card">
+            <img src="https://sc04.alicdn.com/kf/Hf114c74b7d2445c58f87cd3c791e71d5r.jpg" alt="Hair Accessories">
+            <h3>Hair Accessories</h3>
+            <p class="price">₹499</p>
+            <p>Cute hair clips & accessories.</p>
+        </div>
+    </a>
+
+    <a href="gift-hamper.html">
+        <div class="card">
+            <img src="https://cdnnew.igp.com/f_auto,q_auto,t_pnopt19prodlp/products/p-loving-moments-personalized-hamper-268460-m.jpg" alt="Gift Hamper">
+            <h3>Gift Hamper</h3>
+            <p class="price">₹999</p>
+            <p>Perfect gifting accessories combo.</p>
+        </div>
+    </a>
+
+</div>
+
+<footer>
+    © 2026 Shraddhas Trends ♡
+</footer>
+
+</body>
+</html>
